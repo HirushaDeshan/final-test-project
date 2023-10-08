@@ -17,6 +17,8 @@ fetch("https://script.google.com/macros/s/AKfycbzpnkb9-TjRYp2N2IGuBOOQOQeKkysxKr
                 <td>${Phone}</td>
                 <td>${Address}</td>
             </tr>`;
+            let successMessage = document.querySelector("#successMessage");
+            successMessage.style.display = "block";
         }
     });
 });
